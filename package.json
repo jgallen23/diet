@@ -1,7 +1,7 @@
 {
   "name": "diet",
   "description": "put your images on a diet - resize and compress them",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/jgallen23/node-diet",
   "author": "Greg Allen <@jgaui> (http://jga.me)",
   "repository": {
@@ -11,7 +11,9 @@
   "dependencies": {
     "aug": "*",
     "imagemagick": "*",
-    "str.js": "*"
+    "mkdirp": "*",
+    "str.js": "*",
+    "winston": "*"
   },
 	"devDependencies": {
 		"jade": "*",
