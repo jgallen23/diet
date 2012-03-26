@@ -10,15 +10,15 @@
   },
   "dependencies": {
     "aug": "*",
+    "debug": "*",
     "imagemagick": "*",
     "mkdirp": "*",
-    "str.js": "*",
-    "winston": "*"
+    "strf": "*"
   },
-	"devDependencies": {
-		"jade": "*",
+  "devDependencies": {
+    "jade": "*",
     "express": "*"
-	},
+  },
   "keywords": ["image", "resize", "compress", "performance"]
 }
 
