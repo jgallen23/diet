@@ -19,6 +19,7 @@ suite('Diet', function() {
     var diet;
     setup(function() {
       diet = new Diet({
+        imagePath: __dirname+'/img',
         outputPath: __dirname+'/out',
         profiles: {
           profile1: {
@@ -35,6 +36,17 @@ suite('Diet', function() {
         assert.ok(data);
         assert.ok(created);
         assert.equal(filepath, __dirname+'/out/profile1/steve-jobs.jpg');
+        done();
+      });
+    });
+
+    test('should include any directories after imagePath', function(done) {
+      var img = __dirname+'/img/apple/steve-jobs.jpg';
+      diet.resize(img, 'profile1', function(err, created, data, filepath) {
+        assert.ok(!err);
+        assert.ok(data);
+        assert.ok(created);
+        assert.equal(filepath, __dirname+'/out/profile1/apple/steve-jobs.jpg');
         done();
       });
     });
