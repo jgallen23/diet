@@ -17,7 +17,8 @@
   },
   "devDependencies": {
     "jade": "*",
-    "express": "*"
+    "express": "*",
+    "mocha": "*"
   },
   "keywords": ["image", "resize", "compress", "performance"]
 }
