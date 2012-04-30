@@ -1,4 +1,10 @@
 
+0.1.0 / 2012-04-30 
+==================
+
+  * if not found, return 404
+  * added bin to start diet server
+
 0.0.5 / 2012-04-25 
 ==================
 

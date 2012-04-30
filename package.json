@@ -1,12 +1,12 @@
 {
   "name": "diet",
   "description": "put your images on a diet - resize and compress them",
-  "version": "0.0.5",
-  "homepage": "https://github.com/jgallen23/node-diet",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jgallen23/diet",
   "author": "Greg Allen <@jgaui> (http://jga.me)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jgallen23/node-diet.git"
+    "url": "https://github.com/jgallen23/diet.git"
   },
   "dependencies": {
     "aug": "*",
