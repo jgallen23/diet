@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "aug": "*",
+    "commander": "*",
     "debug": "*",
     "imagemagick": "*",
     "mkdirp": "*",
@@ -20,6 +21,7 @@
     "express": "*",
     "mocha": "*"
   },
-  "keywords": ["image", "resize", "compress", "performance"]
+  "keywords": ["image", "resize", "compress", "performance"],
+  "bin": "./bin/diet.js"
 }
 

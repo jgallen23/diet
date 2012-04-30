@@ -1,0 +1,10 @@
+{
+  "imagePath": "img",
+  "outputPath": "resized",
+  "profiles": {
+    "thumbnail": {
+      "width": 100,
+      "height": 100
+    }
+  }
+}
