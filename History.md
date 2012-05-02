@@ -1,4 +1,9 @@
 
+0.2.0 / 2012-05-02 
+==================
+
+  * added last-modified and cache-control in handler
+
 0.1.0 / 2012-04-30 
 ==================
 
