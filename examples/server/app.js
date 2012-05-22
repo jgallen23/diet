@@ -11,4 +11,6 @@ var config = {
   }
 };
 
-Diet.server(config, 8001);
+var port = process.argv[2] || 8000;
+console.log('Diet server started on port '+port);
+Diet.server(config, port);
