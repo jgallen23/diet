@@ -27,7 +27,7 @@ if (program.args.length !== 0) {
   if (program.server) {
     var config = program.args[0];
 
-    Diet.server(config, program.server);
+    Diet.cluster(config, program.server);
   } else {
     usage();
   }
