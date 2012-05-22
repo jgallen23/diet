@@ -9,13 +9,13 @@
     "url": "https://github.com/jgallen23/diet.git"
   },
   "dependencies": {
-    "aug": "*",
-    "commander": "*",
-    "debug": "*",
-    "imagemagick": "*",
-    "mime": "*",
-    "mkdirp": "*",
-    "strf": "*"
+    "aug": "0.0.5",
+    "commander": "0.6.0",
+    "debug": "0.7.0",
+    "imagemagick": "0.1.2",
+    "mime": "1.2.5",
+    "mkdirp": "0.3.2",
+    "strf": "0.1.0"
   },
   "devDependencies": {
     "jade": "*",
