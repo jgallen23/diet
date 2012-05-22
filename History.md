@@ -1,4 +1,13 @@
 
+0.3.0 / 2012-05-22 
+==================
+
+  * froze deps
+  * added cluster support
+  * added mime support
+  * server example - allow custom port
+  * try catch when resizing image
+
 0.2.0 / 2012-05-02 
 ==================
 
