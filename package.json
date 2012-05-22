@@ -1,7 +1,7 @@
 {
   "name": "diet",
   "description": "put your images on a diet - resize and compress them",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/jgallen23/diet",
   "author": "Greg Allen <@jgaui> (http://jga.me)",
   "repository": {
